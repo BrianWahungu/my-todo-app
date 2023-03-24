@@ -1,71 +1,82 @@
-# Getting Started with Create React App
+# TODO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a simple Todo app that helps people organize their work.It fetches apiu from backend
 
-In the project directory, you can run:
+# Getting Started
 
-### `npm start`
+In order for you to use the content on this repo ensure you have the following:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- A computer that runs on either of the following; (Windows 7, Linux, Ubuntu)
+- nodejs 9.0+
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+ 
+### Display list of Todo
 
-### `npm test`
+click on the find a pet option on the navigation bar to display the list of available pets. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Edit Todo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+click on the Edit button on the list to update the todo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Add Todo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Input new Todo to display on the list
 
-### `npm run eject`
+### Login 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  Click on the login button a dummy login it will redirect the user to a page with a dummy login form for the user to fill.
+  ``user name : Alex password:1234``
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Development installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Requirements
+In order for you to use the content on this repo ensure you have the following:
+- A computer that runs on either of the following; (Windows 7+, Linux, Mac OS).
+-  nodejs 9.0+
+- Visual Studio Code.
+- Live server extension.
+### Alternative One
 
-## Learn More
+- Open a terminal / command line interface on your computer.
+- Clone the repo by using the following to create a copy on your local machine:
+       
+        git clone https://github.com/AlexTanui/Todo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Change directory to the repo folder:
+       
+        cd Todo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Open it in ``Visual Studio Code``
 
-### Code Splitting
+        code .
+### Alternative Two
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- On the top right corner of this page there is a button labelled ``Fork``.
+- Click on that button to fork the repo to your own account.
+- Take on the process in ``Alternative One`` above.
+- Remember to replace your username when cloning.
+        
+        git clone https://github.com/AlexTanui/Todo
+## Running the application
 
-### Analyzing the Bundle Size
+To run the application, you can use the following steps to run the app.
+- Run `npm install` to install required dependencies.
+        
+        npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Run `npm run start` to open the application on your browser.
 
-### Making a Progressive Web App
+        npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Repeat the steps on the `Features` section above.
 
-### Advanced Configuration
+# Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# my-todo-app
+This project was contributed by :
+ - [Alex Tanui](https://github.com/AlexTanui/Todo)
+ 
